@@ -1,0 +1,25 @@
+# Configurasi CustomZone By KumaDev
+
+message_customzone_usage: "§aUsage: §e/czm <pos1|pos2|create|list|delete|edit>"
+
+# Pesan Ketika Set Pos
+message_pos1_set: "§aPosition 1 set."
+message_pos2_set: "§aPosition 2 set."
+message_set_pos1_mode: "§aYou are now in set position 1 mode. Break a block to set position 1."
+message_set_pos2_mode: "§aYou are now in set position 2 mode. Break a block to set position 2."
+message_pos_same: "§aPosition 1 and Position 2 cannot be the same block."
+
+# Pesan Command CustomZone
+message_create_usage: "§aUsage: §e/czm create <name>"
+message_delete_usage: "§aUsage: §e/czm delete <name>"
+message_edit_usage: "§aUsage: §e/czm edit <name> <text>"
+
+# Pesan Ketika Zone Tidak Ada
+message_zone_not_found: "§aZone §e'$name' §anot found."
+
+# Pesan Ketika Membuat/Menghapus Zone
+message_zone_deleted: "§aZone §e'$name' §adeleted."
+message_zone_created: "§aZone §e'$name' §acreated."
+
+# Pesan Ketika Berhasil Edit Text
+message_zone_text_updated: "§aZone §e'$name' §atext updated."

@@ -1,0 +1,16 @@
+name: CustomZoneMessage
+version: 1.0.1
+api: [5.0.0]
+main: KumaDev\Main
+author: KumaDeveloper
+description: CustomZoneMessage By KumaDeveloper
+commands:
+  czm:
+    description: Manage CustomZoneMessage
+    usage: "/czm <pos1|pos2|create|list|delete|edit>"
+    aliases: ["customzonemessage"]
+    permission: customzonemessage.use
+permissions:
+  customzonemessage.use:
+    description: Allows players to use the CustomZone
+    default: op
