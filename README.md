@@ -22,10 +22,11 @@ CustomZoneMessage comes with config.yml and area.yml configuration files. config
 # Bug And Issues
 - Fix config
 - Fix message
-- Fix pop up duration
 - Fix X, Y, Z to create zone
 - Add block break feature when setting position
-- Having a popup duration issue cannot be set in config. wait for the next update
+- Add popup duration
+- Add reset text in zone
+- Change the function inside the zone to touch the zone
 
 # Credit
 CustomZoneMessage was developed by [KumaDev](https://github.com/KumaaDev)
