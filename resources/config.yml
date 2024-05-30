@@ -1,6 +1,6 @@
 # Configurasi CustomZone By KumaDev
 
-message_customzone_usage: "§aUsage: §e/czm <pos1|pos2|create|list|delete|edit>"
+message_customzone_usage: "§aUsage: §e/czm <pos1|pos2|create|list|delete|addtext|resettext|duration>"
 
 # Pesan Ketika Set Pos
 message_pos1_set: "§aPosition 1 set."
@@ -12,7 +12,9 @@ message_pos_same: "§aPosition 1 and Position 2 cannot be the same block."
 # Pesan Command CustomZone
 message_create_usage: "§aUsage: §e/czm create <name>"
 message_delete_usage: "§aUsage: §e/czm delete <name>"
-message_edit_usage: "§aUsage: §e/czm edit <name> <text>"
+message_addtext_usage: "§aUsage: §e/czm addtext <name> <text>"
+message_resettext_usage: "§aUsage: §e/czm resettext <name>"
+message_duration_usage: "§aUsage: §e/czm duration <name> <duration>"
 
 # Pesan Ketika Zone Tidak Ada
 message_zone_not_found: "§aZone §e'$name' §anot found."
@@ -23,3 +25,13 @@ message_zone_created: "§aZone §e'$name' §acreated."
 
 # Pesan Ketika Berhasil Edit Text
 message_zone_text_updated: "§aZone §e'$name' §atext updated."
+message_zone_text_reset: "§aZone §e'$name' §atext has been reset."
+
+# Pesan Ketika Berhasil Edit Durasi
+message_zone_duration_updated: "§aZone §e'$name' §aduration updated."
+
+# Pesan Ketika Set Durasi Lebih Dari 60 Detik
+message_max_duration: "§cThe maximum duration of each zone is 60 seconds."
+
+# Pesan Ketika Tidak Ada Teks Pada Zone
+message_zone_no_text: "§aText in zone §e'$name' §anot found."
