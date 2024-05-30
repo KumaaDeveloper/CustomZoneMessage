@@ -3,7 +3,6 @@ CustomZoneMessage is a PocketMine plugin that allows players to get a popup mess
 
 # Features
 - Can create messages in certain zones
-- message is valid for 10 seconds
 
 # Commands
 - Use /customzonemessage or /czm
@@ -11,7 +10,9 @@ CustomZoneMessage is a PocketMine plugin that allows players to get a popup mess
 - /customzonemessage pos1 = to store the first coordinate position
 - /customzonemessage pos2 = to store the second coordinate position
 - /customzonemessage create = to create a zone
-- /customzonemessage edit = to edit the message of the zone
+- /customzonemessage addtext = to edit the message of the zone
+- /customzonemessage duration = to edit duration message of the zone
+- /customzonemessage resettext = to reset the message of the zone
 - /customzonemessage list = to view all zones on the server
 - /customzonemessage delete = to delete
 
