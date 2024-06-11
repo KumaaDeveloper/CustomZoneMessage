@@ -1,37 +1,37 @@
-# Configurasi CustomZone By KumaDev
+# CustomZone Configuration
 
 message_customzone_usage: "§aUsage: §e/czm <pos1|pos2|create|list|delete|addtext|resettext|duration>"
 
-# Pesan Ketika Set Pos
-message_pos1_set: "§aPosition 1 set."
-message_pos2_set: "§aPosition 2 set."
-message_set_pos1_mode: "§aYou are now in set position 1 mode. Break a block to set position 1."
-message_set_pos2_mode: "§aYou are now in set position 2 mode. Break a block to set position 2."
+# Message When Set Post
+message_pos1_set: "§Set position 1."
+message_pos2_set: "§Set position 2."
+message_set_pos1_mode: "§aYou are now in position set mode 1. Break a block to set position 1."
+message_set_pos2_mode: "§aYou are now in position set mode 2. Break a block to set position 2."
 message_pos_same: "§aPosition 1 and Position 2 cannot be the same block."
 
-# Pesan Command CustomZone
-message_create_usage: "§aUsage: §e/czm create <name>"
-message_delete_usage: "§aUsage: §e/czm delete <name>"
-message_addtext_usage: "§aUsage: §e/czm addtext <name> <text>"
-message_resettext_usage: "§aUsage: §e/czm resettext <name>"
-message_duration_usage: "§aUsage: §e/czm duration <name> <duration>"
+# CustomZone Command Message
+message_create_usage: "§aUse: §e/czm create <name>"
+message_delete_usage: "§aUse:§e/czm delete <name>"
+message_text_usage: "§aUse:§e/czm addtext <name> <text>"
+message_resettext_usage: "§aUse:§e/czm resettext <name>"
+message_duration_usage: "§aUse:§e/czm duration <name> <duration>"
 
-# Pesan Ketika Zone Tidak Ada
-message_zone_not_found: "§aZone §e'$name' §anot found."
+# Message When a Zone Doesn't Exist
+message_zone_not_found: "§aZone §e'$name' §not found."
 
-# Pesan Ketika Membuat/Menghapus Zone
-message_zone_deleted: "§aZone §e'$name' §adeleted."
-message_zone_created: "§aZone §e'$name' §acreated."
+# Messages When Creating/Deleting Zones
+message_zone_deleted: "§aZone §e'$name' §deleted."
+message_zone_created: "§aZone §e'$name' §created."
 
-# Pesan Ketika Berhasil Edit Text
+# Message When Successfully Editing Text
 message_zone_text_updated: "§aZone §e'$name' §atext updated."
 message_zone_text_reset: "§aZone §e'$name' §atext has been reset."
 
-# Pesan Ketika Berhasil Edit Durasi
-message_zone_duration_updated: "§aZone §e'$name' §aduration updated."
+# Message When Successfully Editing Durations
+message_zone_duration_updated: "§aZone §e'$name' §duration has been updated."
 
-# Pesan Ketika Set Durasi Lebih Dari 60 Detik
+# Message When Setting a Duration of More Than 60 Seconds
 message_max_duration: "§cThe maximum duration of each zone is 60 seconds."
 
-# Pesan Ketika Tidak Ada Teks Pada Zone
-message_zone_no_text: "§aText in zone §e'$name' §anot found."
+# Message When There is No Text in a Zone
+message_zone_no_text: "§aText in zone §e'$name' §not found."
